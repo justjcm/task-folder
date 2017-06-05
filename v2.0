@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>九宫格</title>
+<style type="text/css">
+	body{
+		/*display: block;*/
+	}
+	.a{
+		width: 80%;
+		height: 80vw;
+		overflow: visible;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+	.b{
+		width: 31%;
+		height: 31%;
+		background: #FFA600; 
+		box-sizing: border-box;
+		margin: 1%;
+		float: left;
+		border-radius: 15%;
+	}
+</style>
+</head>
+<body>
+	<div class="a">
+	
+			<div class="b"></div>
+			<div class="b"></div>
+			<div class="b"></div>
+	
+			<div class="b"></div>
+			<div class="b"></div>
+			<div class="b"></div>
+	
+			<div class="b"></div>
+			<div class="b"></div>
+			<div class="b"></div>
+	</div>
+	
+</body>
+</html>
