@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
 	<title>Task3</title>
 <style type="text/css">
 	img{display: block;}
@@ -15,22 +15,22 @@
 		padding: 1em;
 		overflow: hidden;
 	}
-	.corner{
-		
-	}
 	.logo{
-		margin: 10% 40%;
+		margin: 0 40%;
 	}
 	div p{
 		color: white;
-		padding: 15%;
-		font-size: 1em;
+		padding: 5%;
+		font-size: 2rem;
+		text-align: left;
 	}
 	div.lside{
 		float: left;
+		margin: 0 5%;
 	}
 	div.rside{
 		float: right;
+		margin: 0 5%;
 	}
 </style>
 </head>
@@ -40,8 +40,8 @@
 		<div class="logo"><img src="./task3_07.png"></div>
 		<div><p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以线下聚会桌游道具为主。</p></div>
 		<div>
-			<div class="lside"><img src="./task3_11.png"></div>
-			<div class="rside"><img src="./task3_13.png"></div>
+			<div class="lside"><img src="./task3_11.png"><p>222222</p></div>
+			<div class="rside"><img src="./task3_13.png"><p>BJPTTeng</p></div>
 		</div>
 	</div>
 	
